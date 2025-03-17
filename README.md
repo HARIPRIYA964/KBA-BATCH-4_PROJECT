@@ -14,7 +14,8 @@ To get started with the Fitness Tracker, follow these steps:
 
 Clone the repository
 ```
-git@github.com:HARIPRIYA964/KBA-BATCH-4_PROJECT.git```
+git@github.com:HARIPRIYA964/KBA-BATCH-4_PROJECT.git
+```
 # 🔧 Running Setup
 
 In first terminal,
