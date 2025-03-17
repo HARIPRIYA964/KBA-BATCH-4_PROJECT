@@ -8,14 +8,13 @@
 
 # ⚙️ Getting Started
 
-To get started with the Career Guidnace App, follow these steps:
+To get started with the Fitness Tracker, follow these steps:
 
 🚀 Setting Up the Repository
 
 Clone the repository
 ```
-git clone git@github.com:an9644/Career-Guidence-App.git
-```
+git@github.com:HARIPRIYA964/KBA-BATCH-4_PROJECT.git```
 # 🔧 Running Setup
 
 In first terminal,
