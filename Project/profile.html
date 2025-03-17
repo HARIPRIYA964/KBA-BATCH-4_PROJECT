@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Profile Page</title>
+</head>
+<body class="bg-black">
+    <div>
+       <a href="index.html">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" class="size-9 ml-6 mt-4 ">
+            <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm-4.28 9.22a.75.75 0 0 0 0 1.06l3 3a.75.75 0 1 0 1.06-1.06l-1.72-1.72h5.69a.75.75 0 0 0 0-1.5h-5.69l1.72-1.72a.75.75 0 0 0-1.06-1.06l-3 3Z" clip-rule="evenodd" />
+          </svg>
+          
+       </a>
+    </div>
+
+    <div class="flex">
+        <div class="border border-green-500 bg-green-500 w-[400px] h-[800px] mt-6 ml-20">
+            <img src="/IMAGES/profile.png" alt="" class="w-[100px] h-[100px] rounded rounded-full ml-[137px] mt-10">
+            <span class="text-white font-bold text-2xl ml-[149px]">Lillian</span>
+            <div>
+                <span class="text-gray-500 text-sm ml-[110px]">Lillianmary@gmail.com</span>
+            </div>
+        </div>
+        <div class="border border-white bg-white w-[750px] h-[800px] mt-6 ml-16 pt-32">
+            <div class="">
+                <span class=" text-green-600 font-bold text-3xl pl-[280px] ">Your Details</span>
+                <div class="flex  ml-[70px]">
+                    <input type="date" placeholder="Date" class="border border-1 ml-10 w-[250px] h-[40px] mt-16 border-black pl-2">
+                    <input type="number" placeholder="Age" class="border border-1 ml-10 w-[250px] h-[40px] mt-16 placeholder:text-black border-black pl-2">
+
+                </div>
+                <div class="flex ml-[70px]">
+                   
+                    <select name="" id="" class="border border-1 ml-10 w-[250px] h-[40px] mt-16 bg-white border-black pl-2">
+                        <option value="">Gender</option>
+                        <option value="">Male</option>
+                        <option value="">Female</option>
+                        <option value="">Other</option>
+                    </select>
+
+                     
+                    <select name="" id="" class="border border-1 ml-10 w-[250px] h-[40px] mt-16 bg-white border-black pl-2">
+                        <option value="">Body Type</option>
+                        <option value=""> Slim</option>
+                        <option value=""> Normal</option>
+                        <option value=""> Overweight</option>
+                    </select>
+
+                </div>
+                <div class="flex  ml-[70px] ">
+                    <input type="number" placeholder="Weight" class="border border-1 ml-10 w-[250px] h-[40px] mt-16 placeholder:text-black border-black pl-2">
+                    <input type="number" placeholder="height" class="border border-1 ml-10 w-[250px] h-[40px] mt-16 placeholder:text-black border-black pl-2">
+
+                </div>
+                <div>
+                    <button class="bg-green-600 text-white w-[350px] h-[40px] mt-16 ml-[200px]">Save</button>
+                </div>
+            </div>            
+            <table class="w-[500px] rounded-lg shadow-md ml-[800px]  mt-[-580px]">
+                <thead class="border border-1 border-white text-white">
+                <tr>
+                <td class="px-6 py-3 text-left">Date</td>
+                <td class=" px-6 py-3 text-left">Body Type</td>
+                <td class=" px-6 py-3 text-left">Weight</td>
+                <td class="px-6 py-3 text-left">Height</td>
+                </tr>
+                </tdead> 
+                <tr>
+                <td class="px-6 py-3 text-left">20/1/2024</td>
+                <td class="px-6 py-3 text-left">slim</td>
+                <td class="px-6 py-3 text-left">35</td>
+                <td class="px-6 py-3 text-left">157</td>
+                </tr>
+                </table>
+    </div>
+</body>
+</html>
